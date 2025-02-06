@@ -85,15 +85,20 @@ footer {
 }
 
 .github-icon {
-    position: absolute;
+    position: fixed;
     top: 15px;
     left: 15px;
-    font-size: 28px;
+    font-size: 30px;
     color: black;
     text-decoration: none;
+    background: white;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: 0.3s;
 }
 
 .github-icon:hover {
-    color: #ff6f61;
+    color: #ff6f61; 
+    background: #f4f4f4;
 }
