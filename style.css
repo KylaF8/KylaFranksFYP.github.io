@@ -48,8 +48,8 @@ header {
 }
 
 .profile-img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     border-radius: 50%;
     margin-top: 10px;
@@ -103,14 +103,6 @@ footer {
     background: #f4f4f4;
 }
 
-/* h1, h2 {
-    font-family: 'Playfair Display', serif;
-    text-align: center;
-    font-weight: 700;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
-} */
-
 h1 {
     font-size: 2.8rem;
     color: #000000;
@@ -127,7 +119,7 @@ h2 {
     /* -webkit-text-fill-color: transparent; */
     /* text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15); */
     /* border-left: none; */
-    padding: 10px 0;
+    /* padding: 10px 0; */
 }
 
 
