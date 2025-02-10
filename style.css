@@ -126,15 +126,20 @@ h1 {
 
 h2 {
     font-size: 2rem;
-    color: #444;
     font-style: italic;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto 20px auto;
+    color: #444;
     background: linear-gradient(90deg, #ff6a00 0%, #ee0979 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
-    border-left: 4px solid #ff6a00;
-    padding-left: 15px;
+    border-left: none;
+    padding: 10px 0;
 }
+
 
 h1:hover, h2:hover {
     transform: scale(1.05);
