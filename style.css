@@ -120,12 +120,9 @@ h1 {
 
 h2 {
     font-size: 2rem;
-    font-style: italic;
-    font-family: 'Playfair Display', serif;
-    text-align: center;
-    width: 80%;
-    /* margin: 0 auto 20px auto; */
     color: #000000;
+    text-transform: uppercase;
+    padding-bottom: 10px;
     /* -webkit-background-clip: text; */
     /* -webkit-text-fill-color: transparent; */
     /* text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15); */
