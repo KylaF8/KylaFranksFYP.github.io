@@ -118,13 +118,13 @@ h1 {
 }
 
 h2 {
-    max-width: 100%; /* Limits text width */
+    max-width: 80%; /* Limits text width */
     margin: 0 auto; /* Centers within parent container */
     padding: 10px 20px; /* Ensures some space around */
 }
 
 p {
-    max-width: 30%; /* Limits text width */
+    max-width: 80%; /* Limits text width */
     margin: 0 auto; /* Centers within parent container */
     padding: 10px 20px; /* Ensures some space around */
 }
