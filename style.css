@@ -110,7 +110,7 @@ h1 {
     padding-bottom: 10px;
 }
 
-.intro-text {
+.text-box {
     background: white; /* White background */
     border-radius: 10px; /* Rounded edges */
     padding: 20px; /* Padding for spacing */
@@ -121,7 +121,7 @@ h1 {
     text-align: center; /* Centers text */
 }
 
-.intro-text p {
+.text-box p {
     text-align: justify; /* Makes paragraph more readable */
     font-size: 16px; /* Adjusts text size */
     line-height: 1.6; /* Better spacing between lines */
