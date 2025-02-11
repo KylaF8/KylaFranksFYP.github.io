@@ -111,14 +111,18 @@ h1 {
 }
 
 .intro-text {
-    width: 60%; /* Adjust width as needed */
-    margin: 0 auto; /* Centers the div */
-    text-align: center; /* Centers text inside */
-    padding: 20px; /* Adds spacing around the text */
+    background: white; /* Background color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Spacing inside */
+    width: 60%; /* Width of the box */
+    margin: 20px auto; /* Centering */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    border: 1px solid #ddd; /* Light border */
+    text-align: center; /* Center text inside */
 }
 
 h2 {
-    max-width: 80%; /* Limits text width */
+    max-width: 90%; /* Limits text width */
     margin: 0 auto; /* Centers within parent container */
     padding: 10px 20px; /* Ensures some space around */
 }
