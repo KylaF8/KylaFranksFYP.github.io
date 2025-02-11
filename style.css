@@ -120,7 +120,7 @@ h1 {
 h2 {
     max-width: 90%; /* Limits text width */
     margin: 0 auto; /* Centers within parent container */
-    padding: 10px 20px; /* Ensures some space around */
+    padding: 5px 10px; /* Ensures some space around */
 }
 
 p {
