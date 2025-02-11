@@ -32,7 +32,7 @@ nav ul li a:hover {
 }
 
 header {
-    background: #69c5d7;
+    background: #B2E5D0;
     color: white;
     padding: 20px;
     font-size: 24px;
@@ -76,10 +76,17 @@ header {
     margin-top: 30px;
 }
 
+/* header, footer {
+    background: #B2E5D0; /* Soft mint green */
+    /* color: white;
+    padding: 20px;
+    font-size: 24px;
+} */ 
+
 footer {
     margin-top: 20px;
     padding: 10px;
-    background: #69c5d7;
+    background: #B2E5D0;
     color: white;
     font-size: 14px;
 }
