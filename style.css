@@ -124,7 +124,7 @@ h2 {
 }
 
 p {
-    max-width: 75%; /* Limits text width */
+    max-width: 60%; /* Limits text width */
     margin: 0 auto; /* Centers within parent container */
     padding: 10px 20px; /* Ensures some space around */
 }
