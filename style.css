@@ -216,20 +216,21 @@ h1:hover, h2:hover {
     transform: scale(1.05);
 } */
 
-.profile-container {
+/* Main wrapper for profile and images */
+.profile-wrapper {
     display: flex;
-    justify-content: center; /* Align side by side */
-    align-items: flex-start; /* Align content at the top */
+    justify-content: center; /* Align items side by side */
+    align-items: center; /* Align vertically */
     gap: 40px; /* Space between profile and images */
     padding: 20px;
-    max-width: 90%;
-    margin: 0 auto; /* Center the container */
+    max-width: 80%;
+    margin: 0 auto; /* Center it on the page */
 }
 
-/* Profile box styling */
+/* Profile section styling */
 .intro {
-    width: 50%; /* Adjust size */
-    max-width: 400px; /* Prevents it from being too large */
+    width: 45%; /* Adjust width */
+    max-width: 450px; /* Prevents it from being too large */
     text-align: center;
     background: white;
     padding: 20px;
@@ -237,31 +238,32 @@ h1:hover, h2:hover {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Image gallery positioned next to the profile */
+/* Image gallery */
 .image-gallery {
     display: flex;
-    flex-direction: column; /* Stack images vertically */
+    flex-wrap: wrap; /* Allows images to wrap if needed */
     gap: 10px; /* Space between images */
-    align-items: center;
-    width: 40%; /* Adjust width */
+    justify-content: center; /* Centers images */
+    width: 45%; /* Adjust width */
+    max-width: 450px;
 }
 
-/* Image box styling */
+/* Individual image cards */
 .image-card {
     background: white;
     border-radius: 10px;
     padding: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
-    width: 100%;
-    max-width: 250px; /* Prevents images from stretching */
+    flex: 1 1 calc(50% - 10px); /* Ensures two images per row */
+    max-width: 200px;
 }
 
 /* Ensuring full image is visible */
 .image-card img {
     width: 100%;
     height: auto;
-    object-fit: contain; /* Ensures images do not get cut */
+    object-fit: contain;
     border-radius: 10px;
 }
 
