@@ -177,7 +177,7 @@ h1:hover, h2:hover {
 }
 
 .image-card img {
-    width: 250px; /* Adjust size as needed */
+    width: 300px; /* Adjust size as needed */
     height: 300px;
     object-fit: cover;
     border-radius: 10px;
