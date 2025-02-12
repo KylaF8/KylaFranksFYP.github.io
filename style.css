@@ -218,15 +218,18 @@ h1:hover, h2:hover {
 
 .profile-container {
     display: flex;
-    justify-content: center; /* Center the elements */
-    align-items: center; /* Align them vertically */
-    gap: 20px; /* Space between profile and images */
-    flex-wrap: wrap; /* Ensures responsiveness */
+    justify-content: center; /* Align side by side */
+    align-items: flex-start; /* Align content at the top */
+    gap: 40px; /* Space between profile and images */
     padding: 20px;
+    max-width: 90%;
+    margin: 0 auto; /* Center the container */
 }
 
+/* Profile box styling */
 .intro {
-    width: 40%; /* Adjust width for the profile */
+    width: 50%; /* Adjust size */
+    max-width: 400px; /* Prevents it from being too large */
     text-align: center;
     background: white;
     padding: 20px;
@@ -234,28 +237,32 @@ h1:hover, h2:hover {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* Image gallery positioned next to the profile */
 .image-gallery {
     display: flex;
     flex-direction: column; /* Stack images vertically */
     gap: 10px; /* Space between images */
     align-items: center;
-    width: 40%; /* Adjust width for the images */
+    width: 40%; /* Adjust width */
 }
 
+/* Image box styling */
 .image-card {
     background: white;
     border-radius: 10px;
     padding: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
+    width: 100%;
+    max-width: 250px; /* Prevents images from stretching */
 }
 
+/* Ensuring full image is visible */
 .image-card img {
-    width: 100%; /* Make the images responsive */
-    max-width: 250px; /* Limit image size */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%;
+    height: auto;
+    object-fit: contain; /* Ensures images do not get cut */
     border-radius: 10px;
-    object-fit: contain;
 }
 
 .image-card:hover {
