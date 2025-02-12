@@ -160,6 +160,33 @@ h1:hover, h2:hover {
     transition: 0.3s ease-in-out;
 }
 
+/* .image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.image-card {
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-card img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.image-card:hover {
+    transform: scale(1.05);
+} */
+
 .image-gallery {
     display: flex;
     justify-content: center;
@@ -174,12 +201,14 @@ h1:hover, h2:hover {
     padding: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
+    max-width: 100%; /* Ensures responsiveness */
 }
 
 .image-card img {
-    width: 550px;
-    height: 300px;
-    object-fit: cover;
+    width: 300px; /* Increased width */
+    height: auto; /* Auto height to maintain aspect ratio */
+    max-height: 400px; /* Ensures images are not too tall */
+    object-fit: contain; /* Ensures full image is visible */
     border-radius: 10px;
 }
 
