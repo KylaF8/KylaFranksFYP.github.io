@@ -48,14 +48,14 @@ header {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.profile-img {
+/* .profile-img {
     width: 300px;
     height: 300px;
     object-fit: cover;
     border-radius: 50%;
     margin-top: 10px;
     border: 3px solid #333;
-}
+} */
 
 .btn {
     display: inline-block;
@@ -187,12 +187,12 @@ h1:hover, h2:hover {
     transform: scale(1.05);
 } */
 
-.image-gallery {
+/* .image-gallery {
     display: flex;
     justify-content: center;
-    gap: 20px; /* Space between images */
+    gap: 20px; 
     padding: 20px;
-    flex-wrap: wrap; /* Allows wrapping for smaller screens */
+    flex-wrap: wrap; 
 }
 
 .image-card {
@@ -201,15 +201,61 @@ h1:hover, h2:hover {
     padding: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
-    max-width: 100%; /* Ensures responsiveness */
+    max-width: 100%;
 }
 
 .image-card img {
-    width: 300px; /* Increased width */
-    height: auto; /* Auto height to maintain aspect ratio */
-    max-height: 400px; /* Ensures images are not too tall */
-    object-fit: contain; /* Ensures full image is visible */
+    width: 300px; 
+    height: auto; 
+    max-height: 400px; 
+    object-fit: contain; 
     border-radius: 10px;
+}
+
+.image-card:hover {
+    transform: scale(1.05);
+} */
+
+.profile-container {
+    display: flex;
+    justify-content: center; /* Center the elements */
+    align-items: center; /* Align them vertically */
+    gap: 20px; /* Space between profile and images */
+    flex-wrap: wrap; /* Ensures responsiveness */
+    padding: 20px;
+}
+
+.intro {
+    width: 40%; /* Adjust width for the profile */
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.image-gallery {
+    display: flex;
+    flex-direction: column; /* Stack images vertically */
+    gap: 10px; /* Space between images */
+    align-items: center;
+    width: 40%; /* Adjust width for the images */
+}
+
+.image-card {
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-card img {
+    width: 100%; /* Make the images responsive */
+    max-width: 250px; /* Limit image size */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+    object-fit: contain;
 }
 
 .image-card:hover {
