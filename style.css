@@ -132,16 +132,28 @@ h1 {
 }
 
 
+/* .text-box {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 70%;
+    margin: 20px auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    text-align: justify;
+} */
+
 .text-box {
-    background: white; /* White background */
-    border-radius: 10px; /* Rounded edges */
-    padding: 20px; /* Spacing inside */
-    width: 70%; /* Controls the width */
-    margin: 20px auto; /* Centers the box */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
-    border: 1px solid #ccc; /* Light gray border */
-    text-align: justify; /* Ensures text is well aligned */
+    background: rgba(255, 255, 255, 0.9); /* Light background for readability */
+    margin: 50px auto;
+    padding: 20px;
+    width: 60%; /* Same width as .intro */
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    border: 1px solid #ccc; /* Light border for a defined box */
 }
+
 
 .text-box p {
     font-size: 16px;
