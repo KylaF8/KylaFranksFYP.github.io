@@ -134,27 +134,25 @@ footer {
 } */
 
 /* Ensure navbar can contain absolute elements */
-nav {
-    position: relative; /* This ensures child elements (social icons) position relative to nav */
+/* nav {
+    position: relative; 
     background: #54866d;
     padding: 15px 0;
     display: flex;
-    justify-content: center; /* Centers navigation links */
+    justify-content: center;
     align-items: center;
 }
 
-/* Position social icons inside navbar on the left */
 .social-icons {
     position: absolute;
-    left: 15px; /* Align to the left */
+    left: 15px;
     top: 50%;
-    transform: translateY(-50%); /* Center vertically */
+    transform: translateY(-50%); 
     display: flex;
-    gap: 10px; /* Space between icons */
+    gap: 10px; 
     align-items: center;
 }
 
-/* Social icon styling */
 .github-icon, .linkedin-icon {
     color: black;
     text-decoration: none;
@@ -177,7 +175,65 @@ nav {
 .linkedin-icon:hover {
     color: #0A66C2;
     background: #f4f4f4;
+} */
+
+
+
+
+
+
+
+/* Ensure navbar contains elements properly */
+nav {
+    position: relative; /* Allows child elements like social icons to position relative to navbar */
+    background: #54866d;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center; /* Centers navigation links */
+    align-items: center;
 }
+
+/* Position social icons inside navbar on the left */
+.social-icons {
+    position: absolute;
+    left: 15px; /* Align to the left */
+    top: 50%;
+    transform: translateY(-50%); /* Center vertically */
+    display: flex;
+    gap: 10px; /* Space between icons */
+    align-items: center;
+}
+
+/* Social icons styling */
+.github-icon, .linkedin-icon {
+    color: black;
+    text-decoration: none;
+    background: white;
+    padding: 8px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+
+.github-icon:hover {
+    color: #ff6f61; 
+    background: #f4f4f4;
+}
+
+.linkedin-icon:hover {
+    color: #0A66C2; /* LinkedIn blue */
+    background: #f4f4f4;
+}
+
+
+
+
 
 
 
