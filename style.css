@@ -233,6 +233,39 @@ nav {
 
 
 
+/* Quote Styling */
+.quote {
+    font-size: 1.6rem; /* Larger text */
+    font-style: italic; /* Italic for a quote effect */
+    font-family: "Georgia", serif; /* Classic font for quotes */
+    text-align: center; /* Center alignment */
+    padding: 20px;
+    margin: 20px auto;
+    width: 70%; /* Controls the width */
+    background: rgba(255, 255, 255, 0.9); /* Light background */
+    border-left: 5px solid #54866d; /* Adds a left border for quote effect */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    border-radius: 8px;
+    color: #333; /* Text color */
+}
+
+/* Optional: Add quote marks */
+.quote::before {
+    content: "“"; /* Opening quote */
+    font-size: 2rem;
+    color: #54866d; /* Accent color */
+    font-weight: bold;
+}
+
+.quote::after {
+    content: "”"; /* Closing quote */
+    font-size: 2rem;
+    color: #54866d; /* Accent color */
+    font-weight: bold;
+}
+
+
+
 
 
 
